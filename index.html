@@ -4,29 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
 </head>
 <body>
-    <div class="content">
-        <div class="picture">
-            <div class="logo">
-                <img src="images/samurai.png" alt="plant">
+    <div class="container">
+        <img src="./images/plants.jpg" alt="plants">
+        <div class="right-side">
+            <div class="description">
+                <p>This is not a real online serivce.</p>
+                <p>Go ahead and sign up <i>now</i> </p>
             </div>
+            <h1>LETS GOOO!!!!!</h1>
+
+            <form action="#" class="form">
+                <div class="inputs">
+                    <input type="text" name="first-name" id="first-Name">
+                    <label for="first-name">First Name</label>
+                </div>
+                <div class="inputs">
+                    <input type="text" name="last-name" id="last-Name">
+                    <label for="Last-name">Last Name</label>
+                </div>
+                <div class="inputs">
+                    <input type="email" name="email" id="email">
+                    <label for="email">Email</label>
+                </div>
+                <div class="inputs">
+                    <input type="phoneNumber" id="phoneNumber">
+                    <label for="phoneNumber">Phone Number</label>
+                </div>
+                <div class="inputs">
+                    <input type="password" name="password" id="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <div class="inputs">
+                    <input type="password" name="password" id="confirmpassword" required>
+                    <label for="confirmpassword">Confirm Password</label>
+                </div>
+                <div>
+                    <button type="submit">Create Account</button>
+                </div>
+            </form>
         </div>
-    </div>
-    <div class="right-text">
-        <p>Are you ready for your training?</p>
-        <p>Sign Up</p>
-    </div>
-    <div class="input">
-        <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
     </div>
 </body>
 </html>
